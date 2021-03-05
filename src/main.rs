@@ -23,8 +23,9 @@ lazy_static! {
 }
 
 // TODO
-// - Path can escape?
-// - Assert SHA equal
+// - Use {s,d}trace to ensure that temp files are created and cleaned up correctly
+// - Catch EXDEV invalid cross-link device on .persist() and copy to new location to work around
+//   filesystem boundaries
 // - Better Error handling
 // - Remove rocket friendly default
 //   - CLI output

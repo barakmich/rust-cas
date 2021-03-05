@@ -11,3 +11,7 @@ rocket = { git = "https://github.com/SergioBenitez/Rocket" }
 rocket_contrib = { git = "https://github.com/SergioBenitez/Rocket" }
 sha2 = {version = "0.9.3", features= ["asm"]}
 bytes = "1.0.1"
+regex = "1.4.3"
+lazy_static = "1.4.0"
+tempfile = "3.2.0"
+hex = "0.4.3"
